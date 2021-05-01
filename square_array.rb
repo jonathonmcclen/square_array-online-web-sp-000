@@ -1,7 +1,9 @@
 def square_array(array)
-  
+  pos = 0
   array.each do |i|
-    i == i ** 2 
+    
+    array[pos] == i ** 2
+    pos += 1
   end
   
 end
